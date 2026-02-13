@@ -1,0 +1,73 @@
+/* Background */
+body{
+    background: linear-gradient(120deg,#6c63ff,#00c6ff);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat Container Box */
+.chat-container{
+    width: 420px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Chat Title */
+.chat-container h2{
+    margin-bottom: 15px;
+}
+
+/* Chat Messages Box */
+#chat-box{
+    height: 320px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+/* User Message */
+.user{
+    color:#6c63ff;
+    font-weight:bold;
+    margin: 8px 0;
+}
+
+/* Bot Message */
+.bot{
+    color:#00c6ff;
+    margin: 8px 0;
+}
+
+/* Input Box */
+input{
+    width: 68%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Send Button */
+button{
+    padding: 10px 18px;
+    background:#6c63ff;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+button:hover{
+    background:#574fd6;
+}
